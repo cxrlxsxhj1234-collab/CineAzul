@@ -1,0 +1,28 @@
+:root {
+    --bg-main: #253357;        /* fondo general */
+    --bg-secondary: #151b29;   /* navbar / footer */
+
+    --color-accent: #00c3ff;   /* detalles y hover */
+
+    --text-main: #ffffff;      /* texto principal */
+    --text-secondary: #979797; /* texto footer/menu */
+
+    --hover-light: #ffffff;    /* hover claro */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.barra {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background: transparent;
+}
